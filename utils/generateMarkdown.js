@@ -6,12 +6,16 @@ const generateMarkdown = data => {
   ${data.projectDescription}
   ## Table of Contents
   * [Installation](#installation)
+  * [Guide](#guide)
   * [License](*license)
   * [Contributors](#contributors)
   * [Questions](#questions)
 
   ## Installation
   ${data.projectInstall}
+
+  ## Guide
+  ${data.projectGuide}
 
   ## License
   This project is licensed under ${data.projectLicense}
