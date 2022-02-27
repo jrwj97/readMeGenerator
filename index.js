@@ -121,12 +121,12 @@ const questions = () => {
 }
 
 const writeFile = data => {
-  fs.writeFile("README.md", data, err => {
+  fs.writeFile("README.md(1)", data, err => {
     if (err) {
       console.log(err);
       return;
     } else {
-      console.log("Your README has been created succesfully!")
+      console.log("Your README has been created succesfully as README.md(1)!")
     }
   })
 };

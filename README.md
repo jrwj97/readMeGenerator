@@ -1,8 +1,8 @@
-# README.md Generator
+# Proffessional README.md Generator
   ![Github License](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  Generates README.md files
+  This project will generate a proffesional looking README.m file for you project!
   ## Table of Contents
   * [Installation](#installation)
   * [License](*license)
@@ -10,13 +10,13 @@
   * [Questions](#questions)
 
   ## Installation
-  clone file
+  Clone this repo to your local system and the run "npm install" to install required packages
 
   ## License
   This project is licensed under MIT
 
   ## Contributors
-  Myself
+  jrwj97
 
   ## Questions
   If you have any questions about this project, reach out to me at jrwj97@aol.com. You can view my other projects at https://github.com/jrwj97
