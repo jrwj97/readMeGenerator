@@ -1,35 +1,27 @@
 const generateMarkdown = data => {
-  return `# ${data.title}
-  ![Github License](http://img.shields.io/badge/license-${data.license}-blue.svg)
+  return `# ${data.projectTitle}
+  ![Github License](http://img.shields.io/badge/license-${data.projectLicense}-blue.svg)
 
   ## Description
-  ${data.description}
+  ${data.projectDescription}
   ## Table of Contents
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[License](*license)
-  *[Contributors](#contributors)
-  *[Tests](#tests)
-  *[Questions](#questions)
+  * [Installation](#installation)
+  * [License](*license)
+  * [Contributors](#contributors)
+  * [Questions](#questions)
 
   ## Installation
-  ${data.install}
-
-  ## Usage
-  ${data.usage}
+  ${data.projectInstall}
 
   ## License
-  This project is licensed under the ${data.license}
+  This project is licensed under ${data.projectLicense}
 
   ## Contributors
-  ${data.contributors}
-
-  ## Tests
-  ${data.tests}
+  ${data.projectContributors}
 
   ## Questions
-  If you have any qyestions about this project, reach out to me at ${data.email}. You can view my other projects at ${data.github}
-  `;
+  If you have any questions about this project, reach out to me at ${data.userEmail}. You can view my other projects at https://github.com/${data.githubName}
+`;
 }
 
 module.exports = generateMarkdown;

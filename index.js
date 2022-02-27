@@ -26,7 +26,7 @@ const questions = () => {
         if (input) {
             return true;
         } else {
-            console.log('Please enter your GitHub username!');
+            console.log('Please enter your email address!');
             return false; 
         }
       }
@@ -39,7 +39,7 @@ const questions = () => {
         if (input) {
             return true;
         } else {
-            console.log('Please enter your GitHub username!');
+            console.log('Please enter the name of your project!');
             return false; 
         }
       }
@@ -52,7 +52,7 @@ const questions = () => {
         if (input) {
             return true;
         } else {
-            console.log('Please enter your GitHub username!');
+            console.log('Please give a description of your project!');
             return false; 
         }
       }
@@ -65,7 +65,7 @@ const questions = () => {
         if (input) {
             return true;
         } else {
-            console.log('Please enter your GitHub username!');
+            console.log('Please provide instructions on how to install your project!');
             return false; 
         }
       }
@@ -79,7 +79,7 @@ const questions = () => {
         if (input) {
             return true;
         } else {
-            console.log('Please enter your GitHub username!');
+            console.log('Select all programs that apply!');
             return false; 
         }
       }
@@ -92,7 +92,7 @@ const questions = () => {
         if (input) {
             return true;
         } else {
-            console.log('Please enter your GitHub username!');
+            console.log('Please enter who contributed to this project!');
             return false; 
         }
       }
@@ -105,10 +105,17 @@ const questions = () => {
         if (input) {
             return true;
         } else {
-            console.log('Please enter your GitHub username!');
+            console.log('Please give a tutorial on how to use your project!');
             return false; 
         }
       }
+    },
+    {
+      type: "checkbox",
+      name: "projectLicense",
+      message: "What license shoul dyour project have?",
+      choices: ["MIT", "GNU"],
+      default: ["MIT"],
     }
   ])
 }
